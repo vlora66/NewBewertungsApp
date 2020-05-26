@@ -6,17 +6,80 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="382dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/button_color"
+        android:gravity="center|start"
+        android:text="@string/button_montag"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:drawableRight="@drawable/ic_pfeilright"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="382dp"
+        android:layout_height="74dp"
+        android:background="@color/button_color"
+        android:gravity="center|start"
+        android:text="@string/button_dienstag"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:drawableRight="@drawable/ic_pfeilright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="382dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/button_color"
+        android:gravity="center|start"
+        android:text="@string/button_mittwoch"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:drawableRight="@drawable/ic_pfeilright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="382dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/button_color"
+        android:gravity="center|start"
+        android:text="@string/button_donnerstag"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:drawableRight="@drawable/ic_pfeilright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="382dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/button_color"
+        android:gravity="center|start"
+        android:text="@string/button_freitag"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:drawableRight="@drawable/ic_pfeilright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

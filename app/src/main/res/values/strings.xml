@@ -3,4 +3,10 @@
     <string name="title_home">Speiseplan</string>
     <string name="title_dashboard">Rating</string>
     <string name="title_notifications">Info</string>
+    <string name="button_montag"> M O N T A G</string>
+    <string name="button_dienstag"> D I E N S T A G</string>
+    <string name="button_mittwoch"> M I T T W O C H</string>
+    <string name="button_donnerstag"> D O N N E R S T A G</string>
+    <string name="button_freitag"> F R E I T A G</string>
+
 </resources>
