@@ -8,5 +8,12 @@
     <string name="button_mittwoch"> M I T T W O C H</string>
     <string name="button_donnerstag"> D O N N E R S T A G</string>
     <string name="button_freitag"> F R E I T A G</string>
+    <string name="action_settings">Wochentage</string>
+    <string name="button_studierendenwerk">S T U D I E R E N D E N W E R K</string>
+    <string name="button_fahrplan">F A H R P L A N</string>
+    <string name="button_öffnungszeiten">Ö F F N U N G S Z E I T E N</string>
+    <string name="button_zusatzstoffe">Z U S A T Z S T O F F E/ K E N N Z E I C H N U N G</string>
+    <string name="button_impressum">I M P R E S S U M</string>
+    <string name="button_bezahlen">B E Z A H L E N/ A U T O L O A D</string>
 
 </resources>
